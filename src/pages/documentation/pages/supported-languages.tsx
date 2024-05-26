@@ -130,6 +130,18 @@ const SupportedLanguages = () => {
                     <code lang="yaml">language: ${'{language_key}'}</code>
                 </div>
 
+                <h2 className="text-2xl font-bold mb-6 text-blue-300">How to customize a language?</h2>
+                <p className="mb-6 text-lg">
+                    To customize a language, you will first need to find your
+                    languages <code className="bg-[#273141] text-gray-200 font-mono text-base p-1">.yml</code> file
+                    (e.g. <code className="bg-[#273141] text-gray-200 font-mono text-base p-1">en_US.yml</code> for English)
+                    inside of the
+                    <code className="bg-[#273141] text-gray-200 font-mono text-base p-1">languages/</code> folder.
+                    You can then edit the language file to whatever suits your needs the best and then run
+                    the command <code className="bg-[#273141] text-gray-200 font-mono text-base p-1">/bugreport
+                    reload</code> to make sure the changes are updated.
+                </p>
+
                 <h2 className="text-2xl font-bold mb-6 text-blue-300">Contributing a new language</h2>
                 <p className="mb-6 text-lg">
                     If you would like to contribute a new language to the plugin, please feel free to open a pull

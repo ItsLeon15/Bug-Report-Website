@@ -86,8 +86,10 @@ const SupportedVersions = () => {
                 <h2 className="text-2xl font-bold mb-3 text-blue-300">Supported Software</h2>
                 <p className="mb-3 text-lg">
                     The plugin is designed to work with a variety of server software, ensuring that you can use
-                    <span className="text-yellow-400"> Bug Report</span> with your preferred server software.
+                    <span className="text-yellow-400"> Bug Report</span> with your preferred server software. The plugin won't work with modded versions of Minecraft such as Forge or Fabric.
                 </p>
+
+                <br />
 
                 <p className="mb-4 text-lg">
                     The following server software is supported:

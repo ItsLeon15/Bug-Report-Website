@@ -37,7 +37,7 @@ const LandingPage = () => {
                     <div className="flex flex-wrap justify-center mt-10 gap-8">
                         <FeatureCard
                             title="Easy Reporting"
-                            description="A user-friendly interface for submitting bug reports directly in-game."
+                            description="Multi-configurable options to make reporting bugs easy for players."
                         />
                         <FeatureCard
                             title="Real-Time Notifications"
@@ -101,15 +101,15 @@ const FeaturesShowcase = () => {
     const features = [
         {
             id: 1,
-            title: "Simple GUI's",
-            description: "A user-friendly interface for managing bug reports directly in-game. Admins can manage and find bugs with ease.",
+            title: "Easy-to-use GUI's",
+            description: "A user-friendly interface for managing bug reports directly in-game. That's highly configurable and easy to use.",
             imageUrl: "/images/plugin/Bug_Report_List_GUI.png",
             imageAlt: "Easy Reporting Feature",
         },
         {
             id: 2,
             title: "Loads of Information",
-            description: "An easy-to-use interface for displaying bug reports. Admins can easily view all information related to a bug report, including the status, category, and description.",
+            description: "Loads of player information that admins can easily use to find all of the information related to a bug report, including player location, category, world, gamemode and more!",
             imageUrl: "/images/plugin/Bug_Report_Details.png",
             imageAlt: "Real-Time Notifications Feature",
         },
@@ -123,7 +123,7 @@ const FeaturesShowcase = () => {
         {
             id: 4,
             title: "Customizable GUI",
-            description: "A customizable GUI for managing bug reports efficiently. Admins can customize the interface to suit their needs.",
+            description: "A customizable GUI for managing bug reports efficiently. Admins can customize the interface to suit their servers needs.",
             imageUrl: "/images/plugin/Bug_Report_Details.png",
             imageAlt: "Custom GUI Feature",
         }

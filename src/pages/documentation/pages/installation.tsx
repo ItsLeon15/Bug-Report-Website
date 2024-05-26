@@ -74,8 +74,9 @@ const Installation: React.FC = () => {
                         you can reload the plugin using the command
                         <code className="bg-[#273141] text-gray-200 font-mono text-base p-1">/buglist reload</code>.
                         This command will reload the plugin and apply any changes made to the configuration file.
-                        If you make any changes to any language file in the <code>languages/</code> directory, this will
-                        also work.
+                        If you make any changes to any language file in
+                        the <code className="bg-[#273141] text-gray-200 font-mono text-base p-1">languages/</code> directory,
+                        this will also work.
                     </p>
                 </section>
             </div>

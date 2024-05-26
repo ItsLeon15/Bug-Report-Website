@@ -47,28 +47,28 @@ const DocumentationPage: React.FC = () => {
             icon: faSignsPost,
             id: 'introduction',
             title: 'Introduction',
-            content: 'Make sure to read the installation guide before proceeding.',
+            content: 'Make sure to read the installation guide first.',
             url: '/documentation/information/#introduction'
         },
         {
             icon: faCog,
             id: 'commands',
             title: 'Commands',
-            content: 'A list of all commands and permissions.',
+            content: 'A list of all commands and permissions available in the plugin.',
             url: '/documentation/information/#commands'
         },
         {
             icon: faTools,
             id: 'config',
             title: 'Configuration',
-            content: 'Explore all of the ways to customize Bug Report.',
+            content: 'Explore all of the ways to customize Bug Report such as custom GUIs, categories and statuses!',
             url: '/documentation/information/#configuration'
         },
         {
             icon: faCircleExclamation,
             id: 'common-issues',
             title: 'Common Issues',
-            content: 'Common problems and how to solve them.',
+            content: 'Common problems and errors that you may encounter when using Bug Report.',
             url: '/documentation/information/#common-issues'
         },
         {
