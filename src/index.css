@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#root > * {
+    flex: 1;
+}
+
+body {
+    @apply bg-gray-900 text-white;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.ps-menuitem-root {
+    border-radius: 0 10px 10px 0;
+}
+
+.ps-broken {
+    left: -300px !important;
+}
+
+.ps-menu-button:hover {
+    border-radius: 0 10px 10px 0;
+}
+
+.ps-menu-button {
+    border-left: 1px rgb(96 96 96) solid;
+    height: 34px !important;
+}
+
+.ps-menu-label {
+    font-size: 14px !important;
+    height: 22px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+p, a {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bg-blue-500 {
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.bg-blue-500:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    transition: color 0.3s ease-in-out;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
